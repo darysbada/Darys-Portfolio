@@ -1,105 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    
+
     <link rel="stylesheet" href="style.css">
+    <style>
+/*         main{
+            width:400vw;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        section{
+            border: solid black;
+            display:block;
+            height: 100vh;
+            width: 100vw;
+        } */
+    </style>
 </head>
 
 <body>
-    
- <!-- Navigation -->
+
+    <!-- Navigation -->
     <nav class="navbar">
-        <div class ="nav-items">
-            
-                <a class="nav-link1" href="#home">HOME</a>
-                <a class="nav-link2" href="#aboutBox">ABOUT</a>
-                <a class="nav-link3" href="#creations">CREATIONS</a>
-                <a class="nav-link4" href="#contact">CONTACT</a>
-            
+        <div class="nav-items">
+
+            <a class="nav-link1" href="#home">HOME</a>
+            <a class="nav-link2" href="#aboutBody">ABOUT</a>
+            <a class="nav-link3" href="#creations">SHOWCASE</a>
+            <a class="nav-link4" href="#contact">CONTACT</a>
+
         </div>
     </nav>
-
- <!-- Home -->
-    <section id="home">
-      
-       <div class="name">
-         <p>Hello.</p>
-         <p>I am</p>
-         <p>Darys</p>
-       </div>
-        
-    </section>
-
- <!-- About -->
-    
-    
-    <div class=aboutBody>
-     
-      
-
-      <div id="aboutBox">
-       
-         <div class="aboutGet vertical-text">
-       get
-         </div>
-         
-         <div class="aboutToKnow">
-             o know
-         </div>
-      
-         <div class="aboutQuote">
-            <p>Moi ces annees sortit ombres pic enleve. Entrainait legerement par remarquent bon. Les langage art son puisque sourire. Sourire me en occupee charges surpris souffle on abattit. Escorte ils but stupide enormes. Pitie sur quand dut halte metal son mur. Va creve oh galop ah pense qu. Partout semence va ca la or lorgnez epouses dechire. </p>
-          </div>
-      
-      
-         </div>
-
-    </div>
+    <main>
+        <!-- Home -->
+        <section id="home">
 
 
-    
+            <div class="name">
+                <p>Hello.</p>
+                <p>I am</p>
+                <p>Darys</p>
+            </div>
 
- <!-- Creations -->
+        </section>
 
- 
-    <section id="creations">
-
-      <h1 class="gall">gall</h1>
-      <h1 class="ery">ery</h1>
-    
-      <div class="container">
-         <div class="tile">
-             <img src="http://via.placeholder.com/800x600/EE4540/BE3733" alt="">
-         </div>
-         <div class="tile">
-             <img src="http://via.placeholder.com/800x600/C72B41/9F2234" alt="">
-         </div>
-         <div class="tile">
-             <img src="http://via.placeholder.com/800x600/800834/66062A" alt="">
-         </div>
-         <div class="tile">
-             <img src="http://via.placeholder.com/800x600/530332/420228" alt="">
-         </div>
-         <div class="tile">
-             <img src="http://via.placeholder.com/800x600/2E122D/2A021A" alt="">
-         </div>
-     </div>
+        <!-- About -->
 
 
-    </section>
- 
+        <section id="aboutBody">
 
- <!-- Contact -->
-   <section id="contact">
-       
-   </section>
+            <div class="letsLink">
+                <ul class="social-icons">
+                    <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+
+
+            <div id="aboutBox">
+                <div class="aboutGet vertical-text">
+                    get
+                </div>
+
+                <div class="aboutToKnow">
+                    o know
+                </div>
+
+                <div class="aboutQuote">
+                    <p>Moi ces annees sortit ombres pic enleve. Entrainait legerement par remarquent bon. Les langage
+                        art son puisque sourire. Sourire me en occupee charges surpris souffle on abattit. Escorte ils
+                        but stupide enormes. Pitie sur quand dut halte metal son mur. Va creve oh galop ah pense qu.
+                        Partout semence va ca la or lorgnez epouses dechire. </p>
+                </div>
+
+
+            </div>
 
 
 
 
-<script src="main.js"></script>
+        </section>
+
+        <!-- Creations -->
+
+
+        <section id="creations">
+
+
+            <div class="gallery">
+                <h1 class="gall">gallery</h1>
+            </div>
+
+            <div class="container">
+                <div class="tile">
+                    <img src="/assets/1 lightToDark.png" alt="">
+                </div>
+                <div class="tile">
+                    <img src="assets/2 lightToDark.png" alt="">
+                </div>
+                <div class="tile">
+                    <img src="assets/3 lightToDark.png" alt="">
+                </div>
+                <div class="tile">
+                    <img src="assets/4 lightToDark.png" alt="">
+                </div>
+                <div class="tile">
+                    <img src="assets/5 lightToDark.png" alt="">
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact">
+
+
+
+            <div class="contactForm">contact</div>
+
+            <div>
+                <form id="form" class="topBefore">
+
+                    <input id="name" type="text" placeholder="NAME">
+                    <input id="email" type="text" placeholder="E-MAIL">
+                    <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                    <input id="submit" type="submit" value="SEND">
+
+                </form>
+            </div>
+
+
+
+
+
+
+
+        </section>
+
+
+    </main>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
